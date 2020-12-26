@@ -1,1 +1,1 @@
-# tindog
+# tindog website for dogs
