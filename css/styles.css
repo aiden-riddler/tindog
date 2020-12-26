@@ -1,0 +1,162 @@
+#containerid {
+  padding: 3% 15% 10%;
+}
+#title {
+  background-color: #ff4c68;
+  color: #ffffff;
+}
+.heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  width: 75%;
+  text-align: left;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+.fab {
+  margin-right: 5px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Navigation Bar */
+
+.navbar {
+
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-family: "Montserrat-light";
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+
+/* Download Buttons */
+.dButton{
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-image {
+  transform: rotate(25deg);
+  position: absolute;
+  width: 25%;
+}
+
+/* features */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  text-align: center;
+  background-color:#ef8172 ;
+  padding: 100px;
+}
+
+.testimonial-image {
+  height: 50px
+}
+
+.testimonial-text {
+  width: 50%;
+  margin: 50px auto 50px;
+  color: #fff;
+}
+
+#press{
+  background-color:#ef8172 ;
+  padding-bottom: 50px;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* screenchange */
+@media (max-width: 992px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* final */
+#cta {
+  background: #ff4c68;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+#footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.fab-footer{
+  margin: 0 10px;
+}
+
+.cta-text {
+  font-size: 3rem;
+  width: 50%;
+  margin: 10px auto;
+  color: #fff;
+}
+
+/* sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: #ffffff;
+}
+
+.white-section{
+  background-color: #ffffff;
+}
